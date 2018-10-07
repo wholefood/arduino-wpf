@@ -1,0 +1,19 @@
+﻿<Window x:Class="adu.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:adu"
+        mc:Ignorable="d"
+        Title="The Begins" Height="450" Width="800">
+    <Grid>
+        <Button Content="red" HorizontalAlignment="Left" Margin="100,277,0,0" VerticalAlignment="Top" Width="129" Height="90" FontSize="24" Click="Button_Click"/>
+        <Button Content="blue" HorizontalAlignment="Left" Margin="250,279,0,0" VerticalAlignment="Top" Width="129" Height="90" FontSize="24" Click="Button_Click_Blue_Tex"/>
+        <Button Content="yellow" HorizontalAlignment="Left" Margin="403,279,0,0" VerticalAlignment="Top" Width="126" Height="92" FontSize="24" Click="Button_Click_Yellow_Tex"/>
+        <TextBox x:Name="TestMessage" HorizontalAlignment="Left" Height="86" Margin="128,74,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="522" FontSize="32" BorderThickness="0"/>
+        <Button Content="open new page" HorizontalAlignment="Left" Margin="560,279,0,0" VerticalAlignment="Top" Width="199" Height="88" FontSize="24" FontStyle="Italic" Click="Button_Click_OpenNewPage"/>
+
+    </Grid>
+    
+   
+</Window>
